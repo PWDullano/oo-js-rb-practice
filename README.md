@@ -13,11 +13,6 @@ TODO:
   * deboard
   * full?
 
-* Build the actual filesystem tests
-  * symlink
-  * name and content
-  * overwrite existing one
-
 * Build a ledger class that stores transactions and debits and credits accounts
   * we're an asset account
   * debit increases
