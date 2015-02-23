@@ -1,42 +1,43 @@
-var Directory = function (name) {
-  // this.name = name;
-  // this._files = {};
+var DMV = function (agents) {
+  // this._customersInLine = [];
+  // this._agents = agents;
+  // this._attending = {};
+  // agents.forEach(function (agent) {
+  //   this._attending[agent] = null;
+  // }.bind(this));
 };
 
-// Directory.prototype.ls = function () {
-//   var result = [];
-//   for (var key in this._files) {
-//     if (this._files.hasOwnProperty(key)) {
-//       result.push(key);
+// DMV.prototype.customersInLine = function () {
+//   return this._customersInLine;
+// };
+//
+// DMV.prototype.enter = function (name) {
+//   this._customersInLine.push(name);
+// };
+//
+// DMV.prototype.currentCustomerFor = function (agent) {
+//   return this._attending[agent];
+// };
+//
+// DMV.prototype.nextCustomer = function () {
+//   for (var i = 0; i < this._agents.length; i++) {
+//     var agent = this._agents[i];
+//     if (this._attending[agent] === null) {
+//       this._attending[agent] = this._customersInLine.shift();
+//       return;
 //     }
 //   }
-//   return result.sort();
+// };
+//
+// DMV.prototype.resolve = function (customer) {
+//   for (var i = 0; i < this._agents.length; i++) {
+//     var agent = this._agents[i];
+//     var currentCustomer = this._attending[agent];
+//     if (customer === currentCustomer) {
+//       this._attending[agent] = null;
+//       return;
+//     }
+//   }
 // };
 
-// Directory.prototype.write = function (name, content) {
-//   if(!this._files[name]) this._files[name] = {name: name};
-//   this._files[name].content = content;
-// };
-
-// Directory.prototype.cat = function (name) {
-//   return this._files[name].content;
-// };
-
-// Directory.prototype.mv = function (src, destination) {
-//   this._files[destination] = this._files[src];
-//   this._files[destination].name = destination;
-//   delete this._files[src];
-// };
-
-// Directory.prototype.cp = function (src, destination) {
-//   this._files[destination] = {
-//     name: this._files[src].name,
-//     content: this._files[src].content
-//   };
-// };
-
-// Directory.prototype.ln_s = function (src, destination) {
-//   this._files[destination] = this._files[src];
-// };
-
-module.exports = Directory;
+module.exports = DMV;
