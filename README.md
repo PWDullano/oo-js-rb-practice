@@ -8,13 +8,15 @@ These are meant to be administered by an instructor, one-on-one, using one scree
 
 Ideally each exercise has lots of tests, and you don't have to run all of them.  For example, we should have more than one test of the accumulator pattern, and if they bomb the first one, we can ask them to do a second one, and see how well they would do in a similar job interview scenario (do they pick up quickly).
 
+## Setup
+
+* Make sure you have node 0.12 or greater
+* Run `npm install`
+
 ## Running the files
 
 For ruby just run `rspec` from the directory.
 
-For the javascript exercises, make sure you have node 0.12 or higher.
-
-1. run `npm install` to instal dependencies
 1. `cd` into a directory and run:
 
 ```
