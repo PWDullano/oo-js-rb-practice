@@ -16,7 +16,7 @@ describe('Playlist', function() {
   // it("allows you to add a song", function() {
   //   var playlist = new Playlist();
   //
-  //   playlist.addSong(itHadToBeYou)
+  //   playlist.addSong(itHadToBeYou);
   //
   //   expect(playlist.isEmpty()).toEqual(false);
   // });
@@ -26,7 +26,7 @@ describe('Playlist', function() {
   //
   //   expect(playlist.songNames()).toEqual([]);
   //
-  //   playlist.addSong(itHadToBeYou)
+  //   playlist.addSong(itHadToBeYou);
   //   expect(playlist.songNames()).toEqual(['It had to be you']);
   //
   //   playlist.addSong(butNotForMe)
@@ -35,7 +35,7 @@ describe('Playlist', function() {
   //     'But Not for Me'
   //   ]);
   // });
-  //
+
   // it("allows you remove a song from the playlist", function() {
   //   var playlist = new Playlist();
   //
@@ -72,8 +72,8 @@ describe('Playlist', function() {
   //   playlist.addSong(autumnInNewYork);
   //   expect(playlist.totalLength()).toEqual(175);
   // });
-
-
+  //
+  //
   // it("allows you to swap songs", function() {
   //   var playlist = new Playlist();
   //
