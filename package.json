@@ -1,0 +1,23 @@
+{
+  "name": "oo-assessments",
+  "version": "1.0.0",
+  "description": "These are meant to be administered by an instructor, one-on-one, using one screen and one keyboard.  Instructors drive (type), students navigate (say what to do).  As an instructor, you should:",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gSchool/oo-assessments.git"
+  },
+  "author": "Aaron Gray <aaron@hellometa.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/oo-assessments/issues"
+  },
+  "homepage": "https://github.com/gSchool/oo-assessments"
+}
