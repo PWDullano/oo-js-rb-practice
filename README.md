@@ -49,6 +49,12 @@ The ideal exercise has the following:
 
 ## TODO
 
+* Build a soda machine class
+  * has various amounts of various sodas
+  * sodas have different prices
+  * people buy sodas, inventory goes down, prices go up
+  * extra challenge - do everything with time-series data instead of raw calculations
+
 * Build a bus class with people standing and sitting, bus stops etc...
   * board
   * deboard
