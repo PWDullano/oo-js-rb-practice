@@ -14,7 +14,8 @@ For ruby just run `rspec` from the directory.
 
 For the javascript exercises, make sure you have node 0.12 or higher.
 
-`cd` into a directory and run:
+1. run `npm install` to instal dependencies
+1. `cd` into a directory and run:
 
 ```
 node --harmony ../node_modules/jasmine/bin/jasmine.js
