@@ -20,7 +20,7 @@ describe('Playlist', function() {
   //
   //   expect(playlist.isEmpty()).toEqual(false);
   // });
-
+  //
   // it("allows you to see all song names in the order they were added", function() {
   //   var playlist = new Playlist();
   //
@@ -35,7 +35,7 @@ describe('Playlist', function() {
   //     'But Not for Me'
   //   ]);
   // });
-
+  //
   // it("allows you remove a song from the playlist", function() {
   //   var playlist = new Playlist();
   //
@@ -60,7 +60,7 @@ describe('Playlist', function() {
   //   expect(playlist.songNames()).toEqual([]);
   //   expect(playlist.isEmpty()).toEqual(true);
   // });
-
+  //
   //
   // it("tells you the total length of the playlist", function() {
   //   var playlist = new Playlist();
@@ -70,11 +70,9 @@ describe('Playlist', function() {
   //
   //   playlist.addSong(butNotForMe);
   //   playlist.addSong(autumnInNewYork);
-  //
-  //   playlist.swap(itHadToBeYou, butNotForMe);
   //   expect(playlist.totalLength()).toEqual(175);
   // });
-  //
+
 
   // it("allows you to swap songs", function() {
   //   var playlist = new Playlist();
