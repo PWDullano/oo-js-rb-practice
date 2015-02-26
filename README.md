@@ -13,6 +13,8 @@ Ideally each exercise has lots of tests, and you don't have to run all of them. 
 * Make sure you have node 0.12 or greater
 * Run `npm install`
 
+If you don't have node 0.12 try: `brew update && brew upgrade node`
+
 ## Running the files
 
 For ruby just run `rspec` from the directory.
