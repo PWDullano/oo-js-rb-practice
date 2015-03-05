@@ -5,8 +5,6 @@ RSpec.describe Robot do
 
   it "starts off with the given battery power, at position [0,0]" do
     robot = Robot.new(17)
-    # robot = Robot.allocate
-    # robot.initialize(17)
 
     expect(robot.position).to eq([0,0])
     expect(robot.battery).to eq(17)
