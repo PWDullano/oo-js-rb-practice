@@ -13,14 +13,14 @@ describe("TollRoad", ()=>{
   // it("charges cars that pass through the toll", ()=> {
   //   var tollRoad = new TollRoad(7);
   //
-  //   tollRoad.charge('aaa-bbb');
-  //   expect(tollRoad.balance('aaa-bbb', '2014-12-12-08-22')).toEqual(7);
+  //   tollRoad.charge('aaa-bbb', '2014-12-12-08-22');
+  //   expect(tollRoad.balance('aaa-bbb')).toEqual(7);
   //
-  //   tollRoad.charge('aaa-bbb');
-  //   expect(tollRoad.balance('aaa-bbb', '2014-12-12-08-22')).toEqual(14);
+  //   tollRoad.charge('aaa-bbb', '2014-12-12-08-22');
+  //   expect(tollRoad.balance('aaa-bbb')).toEqual(14);
   //
-  //   tollRoad.charge('ccc-ddd');
-  //   expect(tollRoad.balance('ccc-ddd', '2015-12-12-08-22')).toEqual(7);
+  //   tollRoad.charge('ccc-ddd', '2015-12-12-08-22');
+  //   expect(tollRoad.balance('ccc-ddd')).toEqual(7);
   // });
   //
   // it("allows customers to pay", ()=> {
