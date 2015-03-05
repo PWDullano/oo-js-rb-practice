@@ -9,38 +9,34 @@ describe('Robot', ()=> {
 
     expect(robot.battery()).toEqual(17);
   });
-  // it moves left/right and decreases battery power
-  // it moves up/down and decreases battery power
-  // it records it's movements
 
-
-   it("can move up", function () {
-     var robot = new Robot(8);
-     robot.moveUp();
-     expect(robot.position()).toEqual([0, 1]);
-
-     robot.moveUp();
-     expect(robot.position()).toEqual([0, 2]);
-   });
-
-   it("can move left", function () {
-     var robot = new Robot(8);
-     robot.moveLeft();
-     expect(robot.position()).toEqual([-1, 0]);
-
-     robot.moveLeft();
-     expect(robot.position()).toEqual([-2, 0]);
-   });
-
-   it("can record their history", function () {
-     robot = new Robot(8);
-     expect(robot.history()).toEqual([]);
-
-     robot.moveLeft();
-     expect(robot.history()).toEqual(["left"]);
-
-     robot.moveUp();
-     expect(robot.history()).toEqual(["left", "up"]);
-   });
+  // it("can move up", function () {
+  //   var robot = new Robot(8);
+  //   robot.moveUp();
+  //   expect(robot.position()).toEqual([0, 1]);
+  //
+  //   robot.moveUp();
+  //   expect(robot.position()).toEqual([0, 2]);
+  // });
+  //
+  // it("can move left", function () {
+  //   var robot = new Robot(8);
+  //   robot.moveLeft();
+  //   expect(robot.position()).toEqual([-1, 0]);
+  //
+  //   robot.moveLeft();
+  //   expect(robot.position()).toEqual([-2, 0]);
+  // });
+  //
+  // it("can record their history", function () {
+  //   robot = new Robot(8);
+  //   expect(robot.history()).toEqual([]);
+  //
+  //   robot.moveLeft();
+  //   expect(robot.history()).toEqual(["left"]);
+  //
+  //   robot.moveUp();
+  //   expect(robot.history()).toEqual(["left", "up"]);
+  // });
 
 });
