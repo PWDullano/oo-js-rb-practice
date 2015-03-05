@@ -19,6 +19,7 @@ describe('Car', function() {
   //   it("uses gas", function() {
   //     var car = new Car(10);
   //     car.fill(10);
+  //     expect(car.gallons).toEqual(10);
   //     car.drive(50);
   //     expect(car.gallons).toEqual(5);
   //   });
@@ -27,6 +28,7 @@ describe('Car', function() {
   //     var car = new Car(10);
   //     expect(car.odometer).toEqual(0);
   //     car.drive(50);
+  //     expect(car.odometer).toEqual(50);
   //     car.drive(25);
   //     expect(car.odometer).toEqual(75);
   //   });
@@ -35,6 +37,7 @@ describe('Car', function() {
   //     var car = new Car(10);
   //     expect(car.trips).toEqual([]);
   //     car.drive(50);
+  //     expect(car.trips).toEqual([50]);
   //     car.drive(25);
   //     expect(car.trips).toEqual([50, 25]);
   //   });
