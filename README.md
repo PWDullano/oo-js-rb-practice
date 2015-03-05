@@ -1,5 +1,12 @@
 # Object-Oriented Programming Assessments
 
+The purpose of these assessments is to determine how well students:
+
+* Understand state (constructors, properties / attributes etc...)
+* Understand basic iteration / accumulator concepts
+* Understand basic object / array / variable concepts
+* Can describe code using correct terminology
+
 These are meant to be administered by an instructor, one-on-one, using one screen and one keyboard.  Instructors drive (type), students navigate (say what to do).  As an instructor, you should:
 
 * Describe the setup
