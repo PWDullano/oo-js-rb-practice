@@ -11,11 +11,6 @@ describe('Directory', ()=> {
       expect(directory.name).toEqual('filestuff');
     });
 
-    // it("can ls files when empty", ()=>{
-    //   var directory = new Directory('workspace');
-    //   expect(directory.ls()).toEqual([]);
-    // });
-    // 
     // it("returns filenames in order", ()=> {
     //   var directory = new Directory('workspace');
     //
