@@ -13,6 +13,7 @@ describe('Directory', ()=> {
 
     // it("returns filenames in order", ()=> {
     //   var directory = new Directory('workspace');
+    //   expect(directory.ls()).toEqual([]);
     //
     //   directory.write("foo.txt", "w00t!");
     //   expect(directory.ls()).toEqual(["foo.txt"]);
