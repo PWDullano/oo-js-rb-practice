@@ -5,10 +5,17 @@ describe('Directory', ()=> {
   describe("#ls", ()=> {
     it("starts off as an empty array", ()=> {
       var directory = new Directory('workspace');
+      expect(directory.name).toEqual('workspace');
 
-      expect(directory.ls()).toEqual([]);
+      directory = new Directory('filestuff');
+      expect(directory.name).toEqual('filestuff');
     });
 
+    // it("can ls files when empty", ()=>{
+    //   var directory = new Directory('workspace');
+    //   expect(directory.ls()).toEqual([]);
+    // });
+    // 
     // it("returns filenames in order", ()=> {
     //   var directory = new Directory('workspace');
     //
@@ -18,7 +25,7 @@ describe('Directory', ()=> {
     //   directory.write("bar.txt", "Hello world");
     //   expect(directory.ls()).toEqual(["bar.txt", "foo.txt"]);
     // });
-
+    //
   });
 
   // describe("#cat", ()=> {
