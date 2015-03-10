@@ -50,7 +50,6 @@ describe('DMV', ()=> {
   //
   //   dmv.enter("Texting Ty");
   //   dmv.nextCustomer();
-  //   dmv.resolve("Drivin' Dave");
   //   expect(dmv.currentCustomerFor("Angry Angelica")).toEqual("Texting Ty");
   // });
 
