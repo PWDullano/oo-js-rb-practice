@@ -30,9 +30,14 @@ describe('ParkingLot', ()=> {
   //   parkingLot.park('ccc-789');
   //
   //   parkingLot.leave('bbb-456');
-  //   parkingLot.park('ddd-321');
+  //   expect(parkingLot.locationOf('bbb-456')).toEqual(undefined);
+  //   expect(parkingLot.vacancies()).toEqual(5);
   //
+  //   parkingLot.park('ddd-321');
   //   expect(parkingLot.locationOf('ddd-321')).toEqual(2);
+  //
+  //   parkingLot.park('eee-555');
+  //   expect(parkingLot.locationOf('eee-555')).toEqual(4);
   // });
   //
   // it("can print the location of all cars", function() {
