@@ -66,6 +66,8 @@ The ideal exercise has the following:
   * filter
   * all? / any?
 
+* Add accumulator thing to DMV (and all)
+
 * Build a soda machine class
   * has various amounts of various sodas
   * sodas have different prices

@@ -10,51 +10,78 @@ describe('ParkingLot', ()=> {
     expect(parkingLot.vacancies()).toEqual(12);
   });
 
+  // it("can print a summary of the parking lot", function() {
+  //   var parkingLot = new ParkingLot(4);
+  //
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: (empty)",
+  //     "Position 2: (empty)",
+  //     "Position 3: (empty)",
+  //     "Position 4: (empty)",
+  //   ]);
+  //
+  //   var parkingLot = new ParkingLot(3);
+  //
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: (empty)",
+  //     "Position 2: (empty)",
+  //     "Position 3: (empty)",
+  //   ]);
+  // });
+  //
   // it("records that a car with the given license plate was parked and decreases vacancies", function() {
-  //   var parkingLot = new ParkingLot(7);
+  //   var parkingLot = new ParkingLot(3);
   //
   //   parkingLot.park('aaa-123');
-  //   expect(parkingLot.locationOf('aaa-123')).toEqual(1);
-  //   expect(parkingLot.vacancies()).toEqual(6);
+  //   expect(parkingLot.vacancies()).toEqual(2);
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: aaa-123",
+  //     "Position 2: (empty)",
+  //     "Position 3: (empty)",
+  //   ]);
   //
   //   parkingLot.park('bbb-456');
-  //   expect(parkingLot.locationOf('bbb-456')).toEqual(2);
-  //   expect(parkingLot.vacancies()).toEqual(5);
+  //   expect(parkingLot.vacancies()).toEqual(1);
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: aaa-123",
+  //     "Position 2: bbb-456",
+  //     "Position 3: (empty)",
+  //   ]);
   // });
   //
   // it("fills in empty spaces first", function() {
-  //   var parkingLot = new ParkingLot(7);
-  //
+  //   var parkingLot = new ParkingLot(5);
   //   parkingLot.park('aaa-123');
   //   parkingLot.park('bbb-456'); // this one will leave
   //   parkingLot.park('ccc-789');
   //
   //   parkingLot.leave('bbb-456');
-  //   expect(parkingLot.locationOf('bbb-456')).toEqual(undefined);
-  //   expect(parkingLot.vacancies()).toEqual(5);
   //
-  //   parkingLot.park('ddd-321');
-  //   expect(parkingLot.locationOf('ddd-321')).toEqual(2);
-  //
-  //   parkingLot.park('eee-555');
-  //   expect(parkingLot.locationOf('eee-555')).toEqual(4);
-  // });
-  //
-  // it("can print the location of all cars", function() {
-  //   var parkingLot = new ParkingLot(7);
-  //
-  //   parkingLot.park('aaa-123');
-  //   parkingLot.park('bbb-456');
-  //   parkingLot.park('ccc-789');
-  //
+  //   expect(parkingLot.vacancies()).toEqual(3);
   //   expect(parkingLot.summary()).toEqual([
   //     "Position 1: aaa-123",
-  //     "Position 2: bbb-456",
+  //     "Position 2: (empty)",
   //     "Position 3: ccc-789",
   //     "Position 4: (empty)",
   //     "Position 5: (empty)",
-  //     "Position 6: (empty)",
-  //     "Position 7: (empty)",
+  //   ]);
+  //
+  //   parkingLot.park('ddd-321');
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: aaa-123",
+  //     "Position 2: ddd-321",
+  //     "Position 3: ccc-789",
+  //     "Position 4: (empty)",
+  //     "Position 5: (empty)",
+  //   ]);
+  //
+  //   parkingLot.park('eee-555');
+  //   expect(parkingLot.summary()).toEqual([
+  //     "Position 1: aaa-123",
+  //     "Position 2: ddd-321",
+  //     "Position 3: ccc-789",
+  //     "Position 4: eee-555",
+  //     "Position 5: (empty)",
   //   ]);
   // });
   //
