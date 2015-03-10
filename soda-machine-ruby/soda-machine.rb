@@ -1,0 +1,2 @@
+class SodaMachine
+end
