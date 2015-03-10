@@ -61,6 +61,11 @@ The ideal exercise has the following:
 
 ## TODO
 
+* Build one that has more iteration / accumulators
+  * find
+  * filter
+  * all? / any?
+
 * Build a soda machine class
   * has various amounts of various sodas
   * sodas have different prices
