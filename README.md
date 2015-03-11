@@ -52,13 +52,13 @@ Then run `jasmine dist/<folder-name>/spec/<file-name-spec.js>`
 ### Medium
 
 * Playlist
-* Parking lot (on account of having to fill in empty spaces)
+* Toll Road
 
 ### A little harder
 
+* Parking lot (on account of having to fill in empty spaces)
 * Filesystem (on account of the symlink)
 * DMV (on account of the need to track two sets of data)
-
 
 ## Contributing Exercises
 

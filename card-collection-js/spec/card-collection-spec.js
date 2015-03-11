@@ -18,4 +18,6 @@ describe('CardCollection', ()=> {
     expect(collection.cards).toEqual([card]);
   });
 
+  // TODO: add lots of accumulator methods here: filters, any? etc...
+
 });
