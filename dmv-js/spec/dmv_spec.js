@@ -4,7 +4,7 @@ describe('DMV', ()=> {
 
   describe("#enter", ()=> {
     it("adds a customer to the line", ()=> {
-      var dmv = new DMV(["Surly", "Angry", "Peeved"]);
+      var dmv = new DMV(["Surly Steve", "Angry Amy", "Peeved Pete"]);
 
       expect(dmv.customersInLine()).toEqual([]);
 

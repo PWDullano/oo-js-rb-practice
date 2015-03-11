@@ -9,7 +9,7 @@ var jsAssessments = [];
 [
   'card-collection-js',
   'cars-js',
-  'dmv',
+  'dmv-js',
   'file-system-js',
   'parking-lot-js',
   'playlist-js',
