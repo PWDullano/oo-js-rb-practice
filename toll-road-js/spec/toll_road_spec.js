@@ -27,15 +27,20 @@ describe("TollRoad", ()=>{
   // it("returns the dates that a given car was charged (most recent first)", ()=> {
   //   var tollRoad = new TollRoad(6);
   //
-  //   tollRoad.charge('aaa-bbb', '2015-12-12-08-22');
-  //   expect(tollRoad.history('aaa-bbb')).toEqual([
-  //     'Charged $6 on 2015-12-12-08-22'
-  //   ]);
-  //
   //   tollRoad.charge('aaa-bbb', '2015-01-05-10-34');
   //   expect(tollRoad.history('aaa-bbb')).toEqual([
   //     'Charged $6 on 2015-01-05-10-34',
+  //   ]);
+  //
+  //   tollRoad.charge('aaa-bbb', '2015-12-12-08-22');
+  //   expect(tollRoad.history('aaa-bbb')).toEqual([
   //     'Charged $6 on 2015-12-12-08-22',
+  //     'Charged $6 on 2015-01-05-10-34',
+  //   ]);
+  //
+  //   tollRoad.charge('ddd-123', '2015-01-05-10-34');
+  //   expect(tollRoad.history('ddd-123')).toEqual([
+  //     'Charged $6 on 2015-01-05-10-34',
   //   ]);
   // });
   //
