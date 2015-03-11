@@ -6,9 +6,16 @@
   "dependencies": {
     "jasmine": "^2.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "broccoli": "^0.13.3",
+    "broccoli-babel-transpiler": "^4.0.1",
+    "broccoli-concat": "0.0.12",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-sass": "^0.4.0",
+    "broccoli-static-compiler": "^0.2.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "broccoli-timepiece dist/"
   },
   "repository": {
     "type": "git",

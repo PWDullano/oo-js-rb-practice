@@ -17,20 +17,30 @@ Ideally each exercise has lots of tests, and you don't have to run all of them. 
 
 ## Setup
 
-* Make sure you have node 0.12 or greater
-* Run `npm install`
+Make sure you have node 0.12 or greater, and you have `broccoli-timepiece`:
 
-If you don't have node 0.12 try: `brew update && brew upgrade node`
+```
+npm install -g broccoli-timepiece
+npm install
+```
+
+If you don't have node 0.12 try:
+
+```
+brew update && brew upgrade node
+```
 
 ## Running the files
 
-For ruby just run `rspec` from the directory.
+For ruby, cd into the directory and run `rspec` from the directory.
 
-1. `cd` into a directory and run:
+From the root directory run:
 
 ```
-node --harmony ../node_modules/jasmine/bin/jasmine.js
+npm run serve
 ```
+
+Then run `jasmine dist/<folder-name>/spec/<file-name-spec.js>`
 
 ## Exercises
 
@@ -65,6 +75,7 @@ The ideal exercise has the following:
   * find
   * filter
   * all? / any?
+  * cards - collectors - do you have any???  show me all your...  give me all but...  are all of your trinkets more expensive than...
 
 * Add accumulator thing to DMV (and all)
 
