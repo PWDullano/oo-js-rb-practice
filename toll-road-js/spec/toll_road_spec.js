@@ -12,6 +12,7 @@ describe("TollRoad", ()=>{
 
   // it("charges cars that pass through the toll", ()=> {
   //   var tollRoad = new TollRoad(7);
+  //   expect(tollRoad.balance('aaa-bbb')).toEqual(0);
   //
   //   tollRoad.charge('aaa-bbb', '2014-12-12-08-22');
   //   expect(tollRoad.balance('aaa-bbb')).toEqual(7);

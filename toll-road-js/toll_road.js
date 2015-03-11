@@ -1,9 +1,8 @@
-var TollRoad = function (price) {
+class TollRoad {
 
-};
+  constructor() {
+  }
 
-TollRoad.prototype.charge = function (licensePlate, date) {
-
-};
+}
 
 module.exports = TollRoad;
