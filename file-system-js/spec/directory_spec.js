@@ -21,6 +21,18 @@ describe('Directory', ()=> {
   //   expect(directory.ls()).toEqual(["bar.txt", "foo.txt"]);
   // });
   //
+  //
+  // it("returns filenames with size with ls_la", ()=> {
+  //   var directory = new Directory('workspace');
+  //   expect(directory.ls()).toEqual([]);
+  //
+  //   directory.write("foo.txt", "w00t!");
+  //   expect(directory.ls()).toEqual(["foo.txt - 5"]);
+  //
+  //   directory.write("bar.txt", "Hello world");
+  //   expect(directory.ls()).toEqual(["bar.txt - 11", "foo.txt - 5"]);
+  // });
+  //
   // it("returns the content of the given file with cat", ()=> {
   //   var directory = new Directory('workspace');
   //
