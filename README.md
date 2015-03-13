@@ -20,6 +20,7 @@ Ideally each exercise has lots of tests, and you don't have to run all of them. 
 Make sure you have node 0.12 or greater, and you have `broccoli-timepiece`:
 
 ```
+npm install -g broccoli
 npm install -g broccoli-timepiece
 npm install
 ```
