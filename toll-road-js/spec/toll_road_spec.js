@@ -1,8 +1,8 @@
 var TollRoad = require('../toll_road');
 
-describe("TollRoad", ()=>{
+describe("TollRoad", function() {
 
-  it("has a price", ()=> {
+  it("has a price", function() {
     var tollRoad = new TollRoad(4);
     expect(tollRoad.price).toEqual(4);
 
@@ -10,7 +10,7 @@ describe("TollRoad", ()=>{
     expect(moneyBags.price).toEqual(100000);
   });
 
-  // it("charges cars that pass through the toll", ()=> {
+  // it("charges cars that pass through the toll", function() {
   //   var tollRoad = new TollRoad(7);
   //   expect(tollRoad.balance('aaa-bbb')).toEqual(0);
   //
@@ -24,24 +24,24 @@ describe("TollRoad", ()=>{
   //   expect(tollRoad.balance('ccc-ddd')).toEqual(7);
   // });
   //
-  // it("returns the dates that a given car was charged (most recent first)", ()=> {
+  // it("returns the dates that a given car was charged (most recent first)", function() {
   //   var tollRoad = new TollRoad(6);
   //
   //   tollRoad.charge('aaa-bbb', '2015-01-05-10-34');
   //   expect(tollRoad.history('aaa-bbb')).toEqual([
   //     'Charged $6 on 2015-01-05-10-34',
   //   ]);
-  //
-  //   tollRoad.charge('aaa-bbb', '2015-12-12-08-22');
-  //   expect(tollRoad.history('aaa-bbb')).toEqual([
-  //     'Charged $6 on 2015-12-12-08-22',
-  //     'Charged $6 on 2015-01-05-10-34',
-  //   ]);
-  //
-  //   tollRoad.charge('ddd-123', '2015-01-05-10-34');
-  //   expect(tollRoad.history('ddd-123')).toEqual([
-  //     'Charged $6 on 2015-01-05-10-34',
-  //   ]);
+
+    // tollRoad.charge('aaa-bbb', '2015-12-12-08-22');
+    // expect(tollRoad.history('aaa-bbb')).toEqual([
+    //   'Charged $6 on 2015-12-12-08-22',
+    //   'Charged $6 on 2015-01-05-10-34',
+    // ]);
+    //
+    // tollRoad.charge('ddd-123', '2015-01-05-10-34');
+    // expect(tollRoad.history('ddd-123')).toEqual([
+    //   'Charged $6 on 2015-01-05-10-34',
+    // ]);
   // });
   //
   // it("allows customers to pay", ()=> {
