@@ -7,7 +7,7 @@ describe("TollRoad", function() {
     expect(tollRoad.price).toEqual(4);
 
     var moneyBags = new TollRoad(100000);
-    expect(moneyBags.price).toEqual(100000);
+    expect(moneyBags.price.toEqual(100000));
   });
 
   // it("charges cars that pass through the toll", function() {

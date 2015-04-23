@@ -1,13 +1,15 @@
 var TollRoad = function(price) {
 
+}
+
+TollRoad.prototype.balance = function(license) {
+
+}
+
+TollRoad.prototype.charge = function(license, date) {
 
 }
 
 
 
-
-
 module.exports = TollRoad;
-
-// keep track of the date along with the charge for a license
-// { license: { balance: 0, dates: [ ] } }
